@@ -8,4 +8,4 @@ This is a collection of plugins I've created for the `keysnail <https://github.c
  List of plugins
 =================
 
-+ `pinboard <https://github.com/deadcyclo/keysnail-plugins/pinboard>`_ - Allows you to interact with pinboard.in. You can bookmark the current page, store the current page as a read later bookmark and store your current tabset. In addition you get shortcuts to access your unread bookmarks, all of your bookmarks and your stored tabsets.
++ `pinboard <https://github.com/deadcyclo/keysnail-plugins/tree/master/pinboard>`_ - Allows you to interact with pinboard.in. You can bookmark the current page, store the current page as a read later bookmark and store your current tabset. In addition you get shortcuts to access your unread bookmarks, all of your bookmarks and your stored tabsets.
