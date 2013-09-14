@@ -4,6 +4,24 @@
 
 This plugin allows you to interact with pinboard.in. You can bookmark the current page, store the current page as a read later bookmark and store your current tabset. In addition you get shortcuts to access your unread bookmarks, all of your bookmarks and your stored tabsets.
 
+=========
+ Install
+=========
+
+This is a plugin for the firefox addon `keysnail <https://github.com/mooz/keysnail>`_. Without firefox and keysnail, this plugin is useless.
+
+Directly from github
+====================
+
++ Klikk on `pinboard.ks.js <https://github.com/deadcyclo/keysnail-plugins/blob/master/pinboard/pinboard.ks.js>`_ above.
++ Right click on the *Raw* button and select *Install this plugin*
+
+Manually
+========
+
++ Download `pinboard.ks.js <https://raw.github.com/deadcyclo/keysnail-plugins/master/pinboard/pinboard.ks.js>`_ and put it in your keysnail plugin directory
++ Reload keysnail through it's menu or restart firefox
+
 =====
  Use
 =====
