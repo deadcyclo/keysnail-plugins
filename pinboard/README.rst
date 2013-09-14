@@ -39,12 +39,16 @@ Paste code below to your .keysnail.js file.
 
 In this example you get the following keybindings:
 
-+ C-d d   - Bookmark current page
-+ C-d C-d - Bookmark current page as read later
-+ C-d t   - Save current tab set to pinboard
-+ C-d C-t - View your saved tab sets on pinboard in a new tab
-+ C-d a   - View all your pinboard bookmarks in a new tab
-+ C-d r   - View your bookmarks marked as unread on pinboard in a new tab
+========  =============================================================
+Shortcut  Action
+========  =============================================================
+C-d d     Bookmark current page
+C-d C-d   Bookmark current page as read later
+C-d t     Save current tab set to pinboard
+C-d C-t   View your saved tab sets on pinboard in a new tab
+C-d a     View all your pinboard bookmarks in a new tab
+C-d r     View your bookmarks marked as unread on pinboard in a new tab
+========  =============================================================
 
 =========
  License
