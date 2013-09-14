@@ -12,29 +12,29 @@ Paste code below to your .keysnail.js file.
 
 .. code:: javascript
 
-key.setGlobalKey(['C-d', 'd'], function (ev, arg) {
+  key.setGlobalKey(['C-d', 'd'], function (ev, arg) {
     ext.exec("pinboard-save", arg, ev);
-}, 'Save to pinboard', true);
+  }, 'Save to pinboard', true);
 
-key.setGlobalKey(['C-d', 'C-d'], function (ev, arg) {
+  key.setGlobalKey(['C-d', 'C-d'], function (ev, arg) {
     ext.exec("pinboard-save-read-later", arg, ev);
-}, 'Save to pinboard as read later', true);
+  }, 'Save to pinboard as read later', true);
 
-key.setGlobalKey(['C-d', 't'], function (ev, arg) {
+  key.setGlobalKey(['C-d', 't'], function (ev, arg) {
     ext.exec("pinboard-save-tab-set", arg, ev);
-}, 'Save current tab set to pinboard', true);
+  }, 'Save current tab set to pinboard', true);
 
-key.setGlobalKey(['C-d', 'C-t'], function (ev, arg) {
+  key.setGlobalKey(['C-d', 'C-t'], function (ev, arg) {
     ext.exec("pinboard-view-tab-sets", arg, ev);
-}, 'View tabsets on pinboard in new tab', true);
+  }, 'View tabsets on pinboard in new tab', true);
 
-key.setGlobalKey(['C-d', 'a'], function (ev, arg) {
+  key.setGlobalKey(['C-d', 'a'], function (ev, arg) {
     ext.exec("pinboard-view-all", arg, ev);
-}, 'View own bookmarks on pinboard in new tab', true);
+  }, 'View own bookmarks on pinboard in new tab', true);
 
-key.setGlobalKey(['C-d', 'r'], function (ev, arg) {
+  key.setGlobalKey(['C-d', 'r'], function (ev, arg) {
     ext.exec("pinboard-view-unread", arg, ev);
-}, 'View unread bookmarks on pinboard in new tab', true);
+  }, 'View unread bookmarks on pinboard in new tab', true);
 
 
 In this example you get the following keybindings:
